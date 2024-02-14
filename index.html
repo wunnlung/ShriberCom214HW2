@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow :333333</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        <!--Using this to make the images next to each other-->
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+        }
+        h1, h2, h3 {
+            color: navy;
+        }
+        .myDiv {
+            background-color: lightgrey;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("myAudio");
+            audio.play();
+        }
+    </script>
+</head>
+<body>
+    <!--the three headings, I put the links inside of them :3-->
+    <h1><a href="https://www.youtube.com/watch?v=z3oExI_oHpQ" target="_blank">Heading 1</a></h1>
+    <h2><a href="https://www.reddit.com/r/evangelionmemes/comments/hp44q1/rei_dancing/" target="_blank">Heading 2</a></h2>
+    <h3><a href="https://www.tiktok.com/@sage.m0de/video/7160641020638629125" target="_blank">Heading 3</a></h3>
+    <p>Hiiiiiiiiiiiiiiiiiii :3</p>
+
+    <!-- the images -->
+    <div class="image-container">
+        <img src="rei-chiquita.gif" alt="spin" style="max-width:100%;">
+        <img src="rei-rei-plush.gif" alt="dance" style="max-width:100%;">
+    </div>
+
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Row 1, Cell 1</td>
+            <td>Row 1, Cell 2</td>
+            <td>Row 1, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+            <td>Row 2, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 3, Cell 1</td>
+            <td>Row 3, Cell 2</td>
+            <td>Row 3, Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 4, Cell 1</td>
+            <td>Row 4, Cell 2</td>
+            <td>Row 4, Cell 3</td>
+        </tr>
+    </table>
+
+    <div class="myDiv">Div 1 content</div>
+    <div class="myDiv">Div 2 content</div>
+    <div class="myDiv">Div 3 content</div>
+    <div class="myDiv">Div 4 content</div>
+    <div class="myDiv">Div 5 content</div>
+
+    <!--The extra thing I included is an audio clip that plays when you press a button. I thought it would be pretty cool and funny to include, and I found how to do it on google-->
+    <audio id="myAudio" src="Nyan genesis evangelion.mp3"></audio>
+    <!-- Button to play audio -->
+    <button onclick="playAudio()">You should totally click me</button>
+</body>
+</html>
